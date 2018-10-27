@@ -1,0 +1,184 @@
+nav {
+	background-color: white;
+	height: 90px;
+
+}
+
+.my-nav .nav-link {
+	color: black;
+	font-size: 20px;
+	font-family: 'Righteous', cursive;
+}
+
+.navbar-brand {
+	color: #dd6f62;
+	font-family: 'Fredericka the Great';
+
+}
+
+.navbar-toggler-icon{
+
+}
+
+
+.carousel {
+	margin-bottom: 35px;
+	margin-top:100px;
+	
+}
+
+.carousel h2{
+	color:;
+	font-size: 60px;
+	text-align: center;
+	text-shadow: 3px 3px 3px black;
+	font-family: 'Righteous';
+
+}
+
+.carousel p {
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 80px;
+	text-shadow: 3px 3px 3px black;
+}
+
+
+.card{
+	box-shadow: 5px 5px 6px black;
+}
+
+.upper-card {
+	text-align: center;
+	border: 1px solid #c9c9c9;
+}
+
+.card:hover {
+	-moz-box-shadow: 5px 5px 30px black;
+	-webkit-box-shadow: 5px 5px 30px black;
+	box-shadow: 5px 5px 30px black;
+}
+
+.choose {
+	background-color: lightgray;
+	margin:;
+	
+
+}
+.card i {
+	font-size: 50px;
+	padding: 10%;
+	color: #ffe6ee;
+	text-shadow: 2px 2px 4px #ffccdd;
+	transition: 1s;
+
+}
+.card i:hover {
+	font-size: 80px;
+	padding: 10%;
+	color: black;
+	transition: 1s;
+}
+
+.laptop {
+	
+
+}
+
+.media {
+	margin: 15px 0;
+}
+
+.media i {
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	line-height: 50px;
+	padding: 0 10px;
+	border: 1px solid pink;
+	border-radius: 50%;
+	margin: 0 10px;
+	background-color: pink;
+	transition: 1s;
+
+}
+
+.media i:hover {
+	color: pink;
+	background-color: white;
+	text-shadow:2px 2px 4px #ffccdd;
+}
+
+.media h5 {
+	font-weight: 400;
+}
+
+.my-btn {
+	margin-left: 50px;
+}
+
+/*HOVER EFFECT STYLES*/
+.hovereffect:hover img {
+	-ms-transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+	transform: scale(1.2);
+}
+
+.hovereffect:hover .overlay {
+	opacity: 1;
+	filter:alpha(opacity=100);
+}
+
+.hovereffect:hover h2,.hovereffect:hover a.info {
+	opacity:1;
+	filter: alpha(opacity=100);
+	-ms-transform:translateY(0);
+	-webkit-transform:translateY(0);
+	transform: translateY(0);
+}
+
+.hovereffect:hover a.info {
+	-webkit-transition-delay:2s;
+	transition-delay:2s;
+}
+/*to remove padding*/
+.padding-0{
+	padding-right:0;
+	padding-left:0;
+}
+
+footer {
+	background-color: black;
+	height: 200px;
+	margin-top: 10px;
+}
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)
+/ No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	
+ 
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+}
